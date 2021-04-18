@@ -1,0 +1,108 @@
+{
+	"user_id" : "apurva",
+	"sensor_catalogue_config" :
+	{
+		"sensor_type_1" :{
+			"sensor_name": "hook_rotation",
+			"sensor_type_data_type": "int",
+			"sensor_geolocation" :
+					{
+						"lat" : "None",
+						"long" : "None"
+					},
+			"sensor_address" :
+					{
+						"area" : "None",
+						"building" : "None",
+						"floor" : "",
+						"room_no" : "None"
+					},
+			"sensor_data_storage_details":
+					{
+						"kafka":
+							{
+								"broker_ip":"None",
+								"topic":"None"
+							},
+						"mongo_db":
+							{
+								"ip":"None",
+								"port":"None",
+								"passwd":"None",
+								"document_name":"None"
+							}
+					},
+			"has_controller" : "yes",
+			"sensor_api":"None"
+		},
+
+		"sensor_type_2" :{
+			"sensor_name": "thread_remaining",
+			"sensor_data_type": "int",
+			"sensor_geolocation" :
+					{
+						"lat" : "None",
+						"long" : "None"
+					},
+			"sensor_address" :
+					{
+						"area" : "None",
+						"building" : "None",
+						"floor" : "",
+						"room_no" : "None"
+					},
+			"sensor_data_storage_details":
+					{
+						"kafka":
+							{
+								"broker_ip":"None",
+								"topic":"None"
+							},
+						"mongo_db":
+							{
+								"ip":"None",
+								"port":"None",
+								"passwd":"None",
+								"document_name":"None"
+							}
+					},
+			"has_controller" : "yes",
+			"sensor_api":"None"
+		},
+
+		"sensor_type_3" :{
+			"sensor_name": "stitch_setting",
+			"sensor_data_type": "int",
+			"sensor_geolocation" :
+					{
+						"lat" : "None",
+						"long" : "None"
+					},
+			"sensor_address" :
+					{
+						"area" : "None",
+						"building" : "None",
+						"floor" : "",
+						"room_no" : "None"
+					},
+			"sensor_data_storage_details":
+					{
+						"kafka":
+							{
+								"broker_ip":"None",
+								"topic":"None"
+							},
+						"mongo_db":
+							{
+								"ip":"None",
+								"port":"None",
+								"passwd":"None",
+								"document_name":"None"
+							}
+					},
+			"has_controller" : "yes",
+			"sensor_api":"None"
+		}
+
+	}
+}

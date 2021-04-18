@@ -1,0 +1,245 @@
+{
+	"user_id" : "shreya",
+	"sensor_reg_config" :
+	{
+		"sensor_1" :{
+		"sensor_name": "temperature_sensors",
+		"sensor_data_type": "float",
+		"sensor_geolocation" :
+				{
+					"lat" : "167",
+					"long" : "196"
+				},
+		"sensor_address" :
+				{
+					"area" : "IIITH",
+					"building" : "Himalaya",
+					"floor" : "first",
+					"room_no" : "105"
+				},
+		"sensor_data_storage_details":
+				{
+					"kafka":
+						{
+							"broker_ip":"localhost:9092",
+							"topic":"sensor_topic_1"
+						},
+					"mongo_db":
+						{
+							"ip":"None",
+							"port":"None",
+							"passwd":"None",
+							"document_name":"None"
+						}
+				},
+		"has_controller" : "yes",
+		"sensor_api":"None"
+	},
+
+	"sensor_2" :{
+		"sensor_name": "temperature_sensors",
+		"sensor_data_type": "float",
+		"sensor_geolocation" :
+				{
+					"lat" : "50",
+					"long" : "256"
+				},
+		"sensor_address" :
+				{
+					"area" : "IIITH",
+					"building" : "Vindhya",
+					"floor" : "second",
+					"room_no" : "105"
+				},
+		"sensor_data_storage_details":
+				{
+					"kafka":
+						{
+							"broker_ip":"localhost:9092",
+							"topic":"sensor_topic_2"
+						},
+					"mongo_db":
+						{
+							"ip":"None",
+							"port":"None",
+							"passwd":"None",
+							"document_name":"None"
+						}
+				},
+		"has_controller" : "yes",
+		"sensor_api":"None"
+	},
+
+	"sensor_3" :{
+		"sensor_name": "obj_detection_sensors",
+		"sensor_data_type": "int",
+		"sensor_geolocation" :
+				{
+					"lat" : "90",
+					"long" : "26"
+				},
+		"sensor_address" :
+				{
+					"area" : "IIITH",
+					"building" : "Srujuna",
+					"floor" : "ground",
+					"room_no" : "01"
+				},
+		"sensor_data_storage_details":
+				{
+					"kafka":
+						{
+							"broker_ip":"localhost:9092",
+							"topic":"sensor_topic_3"
+						},
+					"mongo_db":
+						{
+							"ip":"None",
+							"port":"None",
+							"passwd":"None",
+							"document_name":"None"
+						}
+				},
+		"has_controller" : "yes",
+		"sensor_api":"None"
+	},
+
+	"sensor_4" :{
+		"sensor_name": "speed_detection_sensors",
+		"sensor_data_type": "int",
+		"sensor_geolocation" :
+				{
+					"lat" : "120",
+					"long" : "26"
+				},
+		"sensor_address" :
+				{
+					"area" : "IIITH",
+					"building" : "XYZ",
+					"floor" : "ground",
+					"room_no" : "02"
+				},
+		"sensor_data_storage_details":
+				{
+					"kafka":
+						{
+							"broker_ip":"localhost:9092",
+							"topic":"sensor_topic_4"
+						},
+					"mongo_db":
+						{
+							"ip":"None",
+							"port":"None",
+							"passwd":"None",
+							"document_name":"None"
+						}
+				},
+		"has_controller" : "yes",
+		"sensor_api":"None"
+	},
+
+	"sensor_5" :{
+		"sensor_name": "moisture",
+		"sensor_data_type": "int",
+		"sensor_geolocation" :
+				{
+					"lat" : "120",
+					"long" : "26"
+				},
+		"sensor_address" :
+				{
+					"area" : "IIITH",
+					"building" : "XYZ",
+					"floor" : "ground",
+					"room_no" : "02"
+				},
+		"sensor_data_storage_details":
+				{
+					"kafka":
+						{
+							"broker_ip":"localhost:9092",
+							"topic":"sensor_topic_5"
+						},
+					"mongo_db":
+						{
+							"ip":"None",
+							"port":"None",
+							"passwd":"None",
+							"document_name":"None"
+						}
+				},
+		"has_controller" : "yes",
+		"sensor_api":"None"
+	},
+
+	"sensor_6" :{
+		"sensor_name": "speed_detection_sensors",
+		"sensor_data_type": "int",
+		"sensor_geolocation" :
+				{
+					"lat" : "120",
+					"long" : "26"
+				},
+		"sensor_address" :
+				{
+					"area" : "IIITH",
+					"building" : "XYZ",
+					"floor" : "ground",
+					"room_no" : "02"
+				},
+		"sensor_data_storage_details":
+				{
+					"kafka":
+						{
+							"broker_ip":"localhost:9092",
+							"topic":"sensor_topic_6"
+						},
+					"mongo_db":
+						{
+							"ip":"None",
+							"port":"None",
+							"passwd":"None",
+							"document_name":"None"
+						}
+				},
+		"has_controller" : "yes",
+		"sensor_api":"None"
+	},
+
+	"sensor_7" :{
+		"sensor_name": "obj_detection_sensors",
+		"sensor_data_type": "int",
+		"sensor_geolocation" :
+				{
+					"lat" : "50",
+					"long" : "256"
+				},
+		"sensor_address" :
+				{
+					"area" : "IIITH",
+					"building" : "Vindhya",
+					"floor" : "second",
+					"room_no" : "105"
+				},
+		"sensor_data_storage_details":
+				{
+					"kafka":
+						{
+							"broker_ip":"localhost:9092",
+							"topic":"sensor_topic_7"
+						},
+					"mongo_db":
+						{
+							"ip":"None",
+							"port":"None",
+							"passwd":"None",
+							"document_name":"None"
+						}
+				},
+		"has_controller" : "yes",
+		"sensor_api":"None"
+	}
+
+}
+	
+}

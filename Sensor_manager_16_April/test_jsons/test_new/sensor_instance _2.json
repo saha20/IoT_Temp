@@ -1,0 +1,110 @@
+{
+	"user_id" : "shreya",
+	"sensor_reg_config" :
+	{
+		"sensor_1" :{
+		"sensor_name": "hook_rotation",
+		"sensor_data_type": "float",
+		"sensor_geolocation" :
+				{
+					"lat" : "167",
+					"long" : "196"
+				},
+		"sensor_address" :
+				{
+					"area" : "IIITH",
+					"building" : "Himalaya",
+					"floor" : "first",
+					"room_no" : "105"
+				},
+		"sensor_data_storage_details":
+				{
+					"kafka":
+						{
+							"broker_ip":"localhost:9092",
+							"topic":"sensor_topic_13"
+						},
+					"mongo_db":
+						{
+							"ip":"None",
+							"port":"None",
+							"passwd":"None",
+							"document_name":"None"
+						}
+				},
+		"has_controller" : "yes",
+		"sensor_api":"None"
+	},
+
+	"sensor_2" :{
+		"sensor_name": "thread_remaining",
+		"sensor_data_type": "float",
+		"sensor_geolocation" :
+				{
+					"lat" : "50",
+					"long" : "256"
+				},
+		"sensor_address" :
+				{
+					"area" : "IIITH",
+					"building" : "Vindhya",
+					"floor" : "second",
+					"room_no" : "105"
+				},
+		"sensor_data_storage_details":
+				{
+					"kafka":
+						{
+							"broker_ip":"localhost:9092",
+							"topic":"sensor_topic_14"
+						},
+					"mongo_db":
+						{
+							"ip":"None",
+							"port":"None",
+							"passwd":"None",
+							"document_name":"None"
+						}
+				},
+		"has_controller" : "yes",
+		"sensor_api":"None"
+	},
+
+	"sensor_3" :{
+		"sensor_name": "stitch_setting",
+		"sensor_data_type": "int",
+		"sensor_geolocation" :
+				{
+					"lat" : "90",
+					"long" : "26"
+				},
+		"sensor_address" :
+				{
+					"area" : "IIITH",
+					"building" : "Srujuna",
+					"floor" : "ground",
+					"room_no" : "01"
+				},
+		"sensor_data_storage_details":
+				{
+					"kafka":
+						{
+							"broker_ip":"localhost:9092",
+							"topic":"sensor_topic_15"
+						},
+					"mongo_db":
+						{
+							"ip":"None",
+							"port":"None",
+							"passwd":"None",
+							"document_name":"None"
+						}
+				},
+		"has_controller" : "yes",
+		"sensor_api":"None"
+	}
+
+
+}
+	
+}

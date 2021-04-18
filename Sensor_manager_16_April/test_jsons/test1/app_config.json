@@ -1,0 +1,178 @@
+{
+
+"username":"Vanga",
+"applicationname":"Application1",
+"servicename":"func1",
+"serviceid":"1",
+"latitude":"123",
+"longitude":"456",
+"config_file":
+
+{
+	"Application1" :
+	{
+		"user_id" : "user_1",
+		"application_id" : "app_1",
+		"run_file" : "app1_run.py",
+		"functions" :
+		{
+			"func1" : 
+			{
+				"code" : "temperatureService.py",
+				"environment" : 
+				{
+					"python3" : "true",
+					"flask" : "true"
+				},
+				"dependency" : 
+				{
+				},
+				"sensors" :
+				{
+					"sensor_type1" : 
+					{
+						"sensor_id" : "temp_1",
+						"sensor_name" : "temperature_sensors",
+						"sensor_location" : "block_a",
+						"has_controller" : "yes",
+						"processing" : {
+							"data_rate" : "0"
+						}
+
+					},
+					"sensor_type2" :
+					{
+						"sensor_id" : "temp_2",
+						"sensor_name" : "temperature_sensors",
+						"sensor_location" : "block_b",
+						"has_controller" : "yes",
+						"processing" : {
+							"data_rate" : "0"
+						}
+						
+					}
+				},
+				"action_center" :
+				{
+					"output_to_user" : "Temperature_Maintained",
+					"sensor_instruction" : "",
+					"notify" : "false",
+					"notify_user" : 
+					{
+						"user1" : "",
+						"user2" : ""
+					}
+				}
+			},
+
+			"func2" : 
+			{
+				"code" : "objectDetectionService.py",
+				"environment" : 
+				{
+					"python3" : "true",
+					"flask" : "true"
+				},
+				"dependency" : 
+				{
+
+				},
+				"sensors" :
+				{
+					"sensor_type1" : 
+					{
+						"sensor_id" : "od_1",
+						"sensor_name" : "obj_detection_sensors",
+						"sensor_location" : "block_a",
+						"has_controller" : "yes",
+						"processing" : {
+							"data_rate" : "0"
+						}
+
+					},
+
+
+					"sensor_type2" :
+					{
+						"sensor_id" : "ob_2",
+						"sensor_name" : "obj_detection_sensors",
+						"sensor_location" : "block_b",
+						"has_controller" : "yes",
+						"processing" : {
+							"data_rate" : "0"
+						}
+						
+					}
+				},
+				"action_center" :
+				{
+					"output_to_user" : "Object_Detected",
+					"sensor_instruction" : "",
+					"notify" : "true",
+					"notify_user" : 
+					{
+						"user1" : "",
+						"user2" : ""
+					}
+				}
+			},
+
+
+			"func3" : 
+			{
+				"code" : "speedDetectionService.py",
+				"environment" : 
+				{
+					"python3" : "true",
+					"flask" : "true"
+				},
+				"dependency" : 
+				{
+
+				},
+				"sensors" :
+				{
+					"sensor_type1" : 
+					{
+						"sensor_id" : "sd_1",
+						"sensor_name" : "speed_detection_sensors",
+						"sensor_location" : "block_a",
+						"has_controller" : "yes",
+						"processing" : {
+							"data_rate" : "0"
+						}
+
+					},
+
+
+					"sensor_type2" :
+					{
+						"sensor_id" : "sd_2",
+						"sensor_name" : "speed_detection_sensors",
+						"sensor_location" : "block_b",
+						"has_controller" : "yes",
+						"processing" : {
+							"data_rate" : "0"
+						}
+						
+					}
+				},
+				"action_center" :
+				{
+					"output_to_user" : "Maximum_Speed_Reached",
+					"sensor_instruction" : "",
+					"notify" : "true",
+					"notify_user" : 
+					{
+						"user1" : "",
+						"user2" : ""
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+}

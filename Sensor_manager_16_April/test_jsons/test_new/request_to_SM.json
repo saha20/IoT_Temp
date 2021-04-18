@@ -1,0 +1,52 @@
+{
+   "username":"divyansh",
+   "applicationname":"Application1",
+   "servicename":"algo1",
+   "serviceid":"0",
+   "latitude":"23",
+   "longitude":"46",
+   "config_file":{
+      "Application1":{
+         "algorithms":{
+            "algo1":{
+               "code":"control_sewing_service.py",
+               "dependency":{
+                  
+               },
+               "environment":{
+                  "flask":"False",
+                  "python3-alpine":"False",
+                  "python3-packages":[
+                     
+                  ]
+               },
+               "sensors":{
+                  "senosr_type_1":"stitch_setting",
+                  "senosr_type_2":"thread_remaining",
+                  "senosr_type_3":"hook_rotation"
+               }
+            },
+            "algo2":{
+               "code":"control_dyeing_service.py",
+               "dependency":{
+                  
+               },
+               "environment":{
+                  "flask":"False",
+                  "python3":"False",
+                  "python3-packages":[
+                     
+                  ]
+               },
+               "sensors":{
+                  "senosr_type_1":"temperature_sensors",
+                  "senosr_type_2":"color_sensor",
+                  "senosr_type_3":"camera_sensor"
+               }
+            }
+         },
+         "application_id":"Application1",
+         "developer_id":"user_1"
+      }
+   }
+}

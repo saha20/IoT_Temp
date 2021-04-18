@@ -1,0 +1,176 @@
+{
+	"user_id" : "apurva",
+	"sensor_catalogue_config" :
+	{
+		"sensor_type_1" :{
+			"sensor_name": "camera Sensor",
+			"sensor_type_data_type": "int",
+			"sensor_geolocation" :
+					{
+						"lat" : "None",
+						"long" : "None"
+					},
+			"sensor_address" :
+					{
+						"area" : "None",
+						"building" : "None",
+						"floor" : "",
+						"room_no" : "None"
+					},
+			"sensor_data_storage_details":
+					{
+						"kafka":
+							{
+								"broker_ip":"None",
+								"topic":"None"
+							},
+						"mongo_db":
+							{
+								"ip":"None",
+								"port":"None",
+								"passwd":"None",
+								"document_name":"None"
+							}
+					},
+			"has_controller" : "yes",
+			"sensor_api":"None"
+		},
+
+		"sensor_type_2" :{
+			"sensor_name": "color sensor",
+			"sensor_data_type": "int",
+			"sensor_geolocation" :
+					{
+						"lat" : "None",
+						"long" : "None"
+					},
+			"sensor_address" :
+					{
+						"area" : "None",
+						"building" : "None",
+						"floor" : "",
+						"room_no" : "None"
+					},
+			"sensor_data_storage_details":
+					{
+						"kafka":
+							{
+								"broker_ip":"None",
+								"topic":"None"
+							},
+						"mongo_db":
+							{
+								"ip":"None",
+								"port":"None",
+								"passwd":"None",
+								"document_name":"None"
+							}
+					},
+			"has_controller" : "yes",
+			"sensor_api":"None"
+		},
+
+		"sensor_type_3" :{
+			"sensor_name": "hook rotation status",
+			"sensor_data_type": "int",
+			"sensor_geolocation" :
+					{
+						"lat" : "None",
+						"long" : "None"
+					},
+			"sensor_address" :
+					{
+						"area" : "None",
+						"building" : "None",
+						"floor" : "",
+						"room_no" : "None"
+					},
+			"sensor_data_storage_details":
+					{
+						"kafka":
+							{
+								"broker_ip":"None",
+								"topic":"None"
+							},
+						"mongo_db":
+							{
+								"ip":"None",
+								"port":"None",
+								"passwd":"None",
+								"document_name":"None"
+							}
+					},
+			"has_controller" : "yes",
+			"sensor_api":"None"
+		},
+
+		"sensor_type_4" :{
+			"sensor_name": "under thread residual quantity",
+			"sensor_data_type": "int",
+			"sensor_geolocation" :
+					{
+						"lat" : "None",
+						"long" : "None"
+					},
+			"sensor_address" :
+					{
+						"area" : "None",
+						"building" : "None",
+						"floor" : "",
+						"room_no" : "None"
+					},
+			"sensor_data_storage_details":
+					{
+						"kafka":
+							{
+								"broker_ip":"None",
+								"topic":"None"
+							},
+						"mongo_db":
+							{
+								"ip":"None",
+								"port":"None",
+								"passwd":"None",
+								"document_name":"None"
+							}
+					},
+			"has_controller" : "yes",
+			"sensor_api":"None"
+		},
+
+		"sensor_type_5" :{
+			"sensor_name": "stitch setting",
+			"sensor_data_type": "int",
+			"sensor_geolocation" :
+					{
+						"lat" : "None",
+						"long" : "None"
+					},
+			"sensor_address" :
+					{
+						"area" : "None",
+						"building" : "None",
+						"floor" : "",
+						"room_no" : "None"
+					},
+			"sensor_data_storage_details":
+					{
+						"kafka":
+							{
+								"broker_ip":"None",
+								"topic":"None"
+							},
+						"mongo_db":
+							{
+								"ip":"None",
+								"port":"None",
+								"passwd":"None",
+								"document_name":"None"
+							}
+					},
+			"has_controller" : "yes",
+			"sensor_api":"None"
+		}
+
+	}
+}

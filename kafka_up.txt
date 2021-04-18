@@ -1,0 +1,4 @@
+docker run -d --name zookeeper --network=dbz -e ALLOW_ANONYMOUS_LOGIN=yes bitnami/zookeeper
+
+
+docker run -d --name kafka --network=dbz -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e ZOOKEEPER_ADVERTISED_HOST_NAME=kafka -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092 -e ALLOW_PLAINTEXT_LISTENER=yes -e KAFKA_LISTENERS=PLAINTEXT://:9092 bitnami/kafka

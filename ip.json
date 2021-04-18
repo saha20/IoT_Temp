@@ -1,0 +1,1 @@
+{"zookeeper": "'172.19.0.2'", "kafka": "'172.19.0.3'", "scheduler": "'172.19.0.2'", "app_repo": "'172.19.0.5'", "load_balancer": "'172.19.0.6'", "deployer": "'172.19.0.7'", "action_manager": "'172.19.0.8'", "sensor_manager": "'172.19.0.9'", "heart_beat": "'172.19.0.10'"}
